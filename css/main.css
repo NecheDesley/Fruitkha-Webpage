@@ -1,0 +1,616 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-image: linear-gradient(rgba(36, 51, 53, 0.525), rgba(0, 0, 0, 0.544)), url(../img/hero-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+header nav ul li a:hover {
+    color: rgb(223, 143, 6);
+    transition: 0.6s;
+}
+
+header nav ul span {
+    color: orange;
+}
+
+header nav ul span:hover {
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+.dropdown-content {
+    background-color: #000;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    padding: 15px;
+    flex-direction: column;
+    display: none;
+    top: 4em;
+}
+
+.dropdown-content li {
+    padding: 5px;
+}
+
+
+
+
+
+.search-icon {
+    color: #ffffff;
+}
+
+
+header .headings {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.headings h4 {
+    color: rgb(223, 143, 6);
+    letter-spacing: 10px;
+}
+
+.headings h1 {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.nav-menu {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 2rem;
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    padding: 10px;
+}
+
+.buttons .button1 button {
+    padding: 10px;
+    background-color: rgb(223, 143, 6);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button1 button:hover {
+    background-color: #000;
+    color: #ffffff;
+    transition: 0.7s;
+}
+
+.buttons .button2 button {
+    padding: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1.5px solid orange;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+
+.button2 button:hover {
+    background-color: rgb(223, 143, 6);
+    color: #ffffff;
+    transition: 0.7s;
+}
+
+.containers {
+    background-color: rgb(238, 236, 236);
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.free-shipping {
+    display: flex;
+    width: 50%;
+}
+
+.free-shipping .img p {
+    border: 1px solid orange;
+    color: #000;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.our-product {
+    margin-top: 5em;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-product span {
+    color: orange;
+}
+
+.our-product h1 {
+    color: orange;
+    margin-bottom: 5px;
+}
+
+
+.imagegallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.gallery1 {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(216, 214, 214, 0.459);
+    padding: 10px 0px 10px 0px;
+
+}
+
+.gallery1:hover {
+    background-color: rgb(199, 229, 231);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.gallery1 .images {
+    border-radius: 20em;
+}
+
+.gallery1 .amounts {
+    text-align: center;
+}
+
+.cart1 button {
+    margin-top: 10px;
+    background-color: rgb(223, 143, 6);
+    padding: 10px;
+    border: none;
+    border-radius: 35px;
+    color: #ffffff;
+    margin-left: 3rem;
+}
+
+
+article {
+    background-color: rgba(128, 128, 128, 0.165);
+    justify-content: space-around;
+    padding-left: 10rem;
+    padding-top: 10em;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    width: 55rem;
+    align-items: center;
+}
+
+.offkg {
+    background-color: rgb(223, 143, 6);
+    border-radius: 40em;
+    padding: 22px;
+    width: 100rem;
+    text-align: center;
+    border: 2px solid #9c9191;
+    margin-bottom: 15rem;
+}
+
+.offkg span {
+    font-weight: bold;
+}
+
+.offkg p {
+    font-weight: bold;
+}
+
+
+
+.deal1 {
+    width: 100%;
+}
+
+.deal {
+    padding-left: 30px;
+    margin-bottom: 90px;
+}
+
+.deal h3 {
+    font-size: 35px;
+}
+
+.deal h3 span {
+    color: orange;
+}
+
+.deal h6 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+.deal p {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.dateblocks {
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-around;
+    width: 20rem;
+    margin-right: 15px;
+}
+
+.datebtns {
+    width: 4rem;
+    border: 2px solid orange;
+
+}
+
+.datebtns span {
+    color: rgb(223, 143, 6);
+    font-weight: bold;
+}
+
+.datebtns p {
+    font-weight: lighter;
+}
+
+.cart button {
+    margin-top: 20px;
+    background-color: rgb(223, 143, 6);
+    padding: 15px;
+    border: none;
+    border-radius: 35px;
+    color: #ffffff;
+}
+
+section {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15rem;
+    margin-top: 30px;
+}
+
+.section {
+    width: 45rem;
+}
+
+section .image img {
+    background-color: #9c9191;
+    border-radius: 10rem;
+}
+
+section h3,
+h5,
+p,
+h1 {
+    margin-top: 15px;
+}
+
+section h5 {
+    font-weight: lighter;
+}
+
+section p,
+h1 {
+    color: #aca9a9;
+}
+
+.we-are-fruitkha {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fruit-text {
+    padding-left: 60px;
+    font-size: 13px;
+
+}
+
+.fruit-text h1 {
+    font-size: 30px;
+    color: #000;
+}
+
+.fruit-text h1 span {
+    color: rgb(223, 143, 6);
+}
+
+.fruit-text button {
+    background-color: rgb(223, 143, 6);
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#december-sale {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.december-sale2 {
+    padding: 40px 0px 0px 250px;
+}
+
+.december-sale2 h1 span {
+    color: rgb(223, 143, 6);
+}
+
+.sales-off {
+    display: flex;
+    width: 9.7rem;
+    justify-content: space-around;
+}
+
+.sales-off p {
+    font-size: 15px;
+}
+
+.sales-off p span {
+    font-size: 30px;
+    color: rgb(223, 143, 6);
+}
+
+
+#december-sale h1 {
+    color: #000;
+    width: 17rem;
+    font-size: 25px;
+}
+
+.december-sale2 button {
+    background-color: rgb(223, 143, 6);
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.container5 {
+    text-align: center;
+    width: 100%;
+}
+
+.our-new {
+    margin-top: 5em;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-new span {
+    color: orange;
+}
+
+.our-new h1 {
+    color: orange;
+    margin-bottom: 5px;
+}
+
+
+.imagegallery2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    /* flex-wrap: wrap; */
+
+}
+
+
+.gallery2 {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(216, 214, 214, 0.459);
+    padding: 10px 0px 10px 0px;
+
+}
+
+.gallery2:hover {
+    background-color: rgb(199, 229, 231);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.gallery2 .images {
+    padding: 10px;
+}
+
+.gallery2 .amounts {
+    padding: 20px;
+}
+
+.more-news {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.more-news button {
+    background-color: rgb(223, 143, 6);
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.logos {
+    background-color: rgb(238, 236, 236);
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.logos img {
+    padding: 10px;
+}
+
+
+
+footer {
+    background-color: rgb(10, 4, 13);
+    color: #ffffff;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.footer h5 {
+    color: orange;
+}
+
+footer .footer .about-us {
+    width: 20rem;
+}
+
+footer .footer .get-in-touch {
+    width: 20rem;
+}
+
+.footer .subscribe {
+    width: 20rem;
+}
+
+.footer .pages ul span {
+    color: orange;
+}
+
+.footer .pages ul li {
+    padding: 10px 0px;
+}
+
+.footer .pages ul li a {
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.footer .subscribe .button {
+    padding: 15px 0px;
+}
+
+.footer .subscribe .button input {
+    padding: 10px 100px 10px 5px;
+    color: #ffffff;
+    background-color: rgb(7, 7, 62);
+
+}
+
+.footer .subscribe .button button {
+    padding: 12px;
+    background-color: rgb(7, 7, 62);
+    color: orange;
+    border: none;
+}
+
+
+
+.copyright {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    width: 100%;
+    align-items: center;
+}
+
+
+.copyright p {
+    font-weight: lighter;
+}
+
+.copyright p span {
+    color: orange;
+}
+
+footer .top-menu {
+    padding: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+footer .top-menu a {
+    color: orange;
+}

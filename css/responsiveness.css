@@ -1,0 +1,263 @@
+@media (min-width:1440px) {
+
+    .container3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+@media (max-width:988px) {
+
+    article {
+        background-color: #ffffff;
+    }
+
+    .container3 {
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40rem;
+    }
+
+    .container3 .offkg {
+        width: 7.5rem;
+        display: none;
+    }
+
+    .we-are-fruitkha {
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #december-sale {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+}
+
+
+@media (max-width:868px) {
+
+    header {
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    header nav {
+        position: initial;
+    }
+
+    .imagegallery2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section {
+        padding-right: 10rem;
+    }
+
+    .logos {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+
+    }
+
+    .logos img {
+        padding: 10px;
+    }
+
+    footer {
+        width: 100%;
+        display: block;
+
+    }
+
+
+
+    .footer .subscribe {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:760px) {
+
+    .logos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .footer {
+        display: block;
+        padding: 20px 0px 0px 200px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer .get-in-touch,
+    .pages,
+    .subscribe {
+        margin-top: 5rem;
+    }
+
+    .footer .pages h3 {
+        padding-right: 15rem;
+    }
+
+    .footer .pages h5 {
+        padding-right: 15rem;
+    }
+
+
+    .footer .pages ul {
+        display: flex;
+    }
+
+    .footer .pages ul li {
+        padding: 10px;
+    }
+
+
+}
+
+@media (max-width:828px) {
+
+    .section {
+        width: 40rem;
+    }
+
+    .deal {
+        width: 20rem;
+    }
+
+
+}
+
+
+
+@media (max-width:696px) {
+    .free-shipping {
+        display: block;
+        flex-direction: column-reverse;
+        padding: 10px
+    }
+
+    .redfruit {
+        padding-right: 20rem;
+    }
+
+    .deal1 {
+        padding-right: 20rem;
+    }
+
+    .section {
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 20rem;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    header nav ul {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+    }
+
+
+    .imagegallery {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .more-news {
+        margin-bottom: 5em;
+    }
+
+    .free-shipping {
+        display: none;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .footer {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer .pages {
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width:500px) {
+
+.imagegallery{
+    width: 100%;
+    margin-top: 10px;
+}
+
+    .our-product {
+        width: 100%;
+    }
+
+
+    .our-new {
+        width: 100%;
+    }
+
+    
+.deal1{
+    margin-right: 18em;
+    width: 100%;
+}
+    
+
+
+    .imagegallery2 {
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    .footer {
+        display: none;
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+}
